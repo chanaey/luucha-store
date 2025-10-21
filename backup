@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Luucha Store — Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- NAV -->
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="index.html">
+        <img src="logo.png" alt="Luucha Store logo" class="logo" />
+      </a>
+
+      <button id="nav-toggle" class="nav-toggle" aria-label="toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-list" id="nav-list">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="produk.html">Produk</a></li>
+        <li><a href="kontak.html">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <main>
+    <section class="hero">
+      <div class="hero-inner container">
+        <h1 class="hero-title">Luucha Store</h1>
+        <p class="hero-sub">Akun Premium • Top-up Game • Pulsa • Handmade • Cemilan</p>
+        <div class="hero-cta">
+          <a class="btn primary" href="produk.html">Lihat Produk</a>
+          <a class="btn ghost" href="kontak.html">Pesan Sekarang</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="features container">
+      <article class="card feature">
+        <h3>Digital Accounts</h3>
+        <p>Akun Netflix, Spotify, dan layanan premium lain — aman & cepat.</p>
+      </article>
+      <article class="card feature">
+        <h3>Top-up Game</h3>
+        <p>Top-up cepat untuk mobile & PC. Harga bersaing.</p>
+      </article>
+      <article class="card feature">
+        <h3>Handmade & Snack</h3>
+        <p>Gelang, gantungan, juga banana lumer & lumpia gulung — pesan buat sendiri atau kado.</p>
+      </article>
+    </section>
+
+    <!-- HIGHLIGHT PRODUCTS -->
+    <section class="container highlight">
+      <h2>Produk Pilihan</h2>
+      <div class="grid">
+        <div class="card product">
+          <div class="product-media">🎬</div>
+          <h4>Netflix Account (Shared)</h4>
+          <p class="muted">1 bulan / shared</p>
+          <p class="price">Rp 25.000</p>
+          <a class="btn small" href="produk.html#digital">Lihat</a>
+        </div>
+
+        <div class="card product">
+          <div class="product-media">🎧</div>
+          <h4>Spotify Premium 1 Bulan</h4>
+          <p class="muted">Akun Premium</p>
+          <p class="price">Rp 15.000</p>
+          <a class="btn small" href="produk.html#digital">Lihat</a>
+        </div>
+
+        <div class="card product">
+          <div class="product-media">🎮</div>
+          <h4>Top-up Game (UC / Diamonds)</h4>
+          <p class="muted">PUBG / ML / Free Fire</p>
+          <p class="price">Mulai Rp 5.000</p>
+          <a class="btn small" href="produk.html#topup">Lihat</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT (brief) -->
+    <section class="container about">
+      <div class="card">
+        <h3>Tentang Luucha Store</h3>
+        <p>
+          Luucha Store menyediakan berbagai akun premium, layanan top-up game, pulsa,
+          serta kerajinan tangan dan makanan ringan. Fokus pada layanan cepat,
+          harga bersaing, dan pelayanan ramah.
+        </p>
+        <a class="btn" href="kontak.html">Hubungi Kami</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2025 Luucha Store. All rights reserved.</p>
+      <p>Kontak: <a href="https://wa.me/6289646822876" target="_blank" rel="noopener">WhatsApp</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

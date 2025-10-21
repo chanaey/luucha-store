@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Luucha Store — Kontak</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="index.html">
+        <img src="logo.png" alt="Luucha Store logo" class="logo" />
+      </a>
+
+      <button id="nav-toggle" class="nav-toggle" aria-label="toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-list" id="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="produk.html">Produk</a></li>
+        <li><a href="kontak.html" class="active">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Kontak & Pemesanan</h1>
+
+    <div class="grid contact-grid">
+      <section class="card contact">
+        <h3>Pesan Lewat WhatsApp</h3>
+        <p>Chat langsung untuk pemesanan cepat:</p>
+        <a class="btn" href="https://wa.me/6289646822876" target="_blank" rel="noopener">Hubungi via WhatsApp</a>
+
+        <h4>Alamat (opsional)</h4>
+        <p>Felicia Residence, Jalan Pendidikan Blok A No.1, Gunung Sindur, Bogor</p>
+
+        <h4>Sosial Media</h4>
+        <p>
+          TikTok: <a href="https://www.tiktok.com/@urfavvczy" target="_blank">@urfavvczy</a><br>
+          Instagram: (tambahkan nanti)
+        </p>
+      </section>
+
+      <section class="card contact">
+        <h3>Form Pemesanan (contoh)</h3>
+        <form id="order-form" onsubmit="orderSubmit(event)">
+          <label>Nama</label>
+          <input type="text" id="name" placeholder="Nama lengkap" required/>
+          <label>Produk yang dipesan</label>
+          <input type="text" id="product" placeholder="Misal: Netflix 1 bulan" required/>
+          <label>Jumlah / Keterangan</label>
+          <input type="text" id="note" placeholder="Jumlah / catatan (opsional)"/>
+          <label>Nomor WhatsApp</label>
+          <input type="text" id="phone" placeholder="Contoh: 62812xxxx" required/>
+          <button class="btn" type="submit">Kirim Pesan ke WA</button>
+        </form>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2025 Luucha Store. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
